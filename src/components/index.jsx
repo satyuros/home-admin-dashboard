@@ -14,3 +14,4 @@ export { default as StackedChart } from "./Charts/StackedChart";
 export { default as PieChart } from "./Charts/PieChart";
 export { default as ChartsHeader } from "./ChartsHeader";
 export { default as Header } from "./Header";
+export { default as CastButton } from "./GoogleCast/CastButton";

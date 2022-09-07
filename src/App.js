@@ -22,10 +22,13 @@ import {
   ColorPicker,
   ColorMapping,
   Editor,
+  DLNAd,
+  DLNA,
 } from "./pages";
 
 import { useStateContext } from "./contexts/ContextProvider";
 import { useEffect } from "react";
+import FolderDetail from "./pages/FolderDetail";
 
 function App() {
   const {
@@ -91,6 +94,8 @@ function App() {
                 <Route path="/ecommerce" element={<ECommerce />} />
 
                 {/* Pages */}
+                <Route path="/dlna" element={<DLNA />} />
+                <Route path="/folder/:folderId" element={<FolderDetail />} />
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} />

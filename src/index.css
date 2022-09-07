@@ -9,3 +9,8 @@ body{
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.e-card .e-card-horizontal  {
+    margin: auto;
+    width: inherit;
+}
